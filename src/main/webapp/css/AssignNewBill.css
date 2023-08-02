@@ -1,0 +1,115 @@
+/* Jai Swaminarayan KESHAV , Swami-Shreeji */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fHeading{
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.fContainer{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid black;*/
+}
+
+@media(max-width:800px){
+    .fContainer{
+        height: auto;
+        min-height: 70vh;
+        margin-bottom: 20px;
+    }
+}
+.billContainer{
+    height: 400px;
+    width: 70%;
+    /*border: 1px solid black;*/
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:800px){
+    .billContainer{
+        height: auto;
+        flex-direction: column;
+    }
+}
+
+.container1{
+    height: 100%;
+    width: 50%;
+    border-right: 1px solid black;
+}
+
+@media (max-width:800px){
+    .container1{
+        border-right: 0px;
+        width: 100%;
+    }
+}
+.field1{
+    height: 20%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.field1 p{
+    margin-left: 5%;
+}
+
+.field1 input{
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    margin-left: 5%;
+    width: 80%;
+}
+
+.field2{
+    height: 20%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.field2 p,span{
+    margin-left: 5%;
+}
+
+.field2 span{
+    margin-right: 2%;
+}
+
+.field1 button{
+    margin-left: 5%;
+    width: 90%;
+    border-radius: 15px;
+    background-color: #212529;
+    color: white;
+}
+
+.field1 button:hover{
+    background-color: #3b4146;
+    color: white;
+}
+.container2{
+    height: 100%;
+    width: 50%;
+    /*border: 1px solid red;*/
+}
+
+@media (max-width:800px){
+    .container2{
+        width: 100%;
+    }
+}

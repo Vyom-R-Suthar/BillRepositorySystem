@@ -1,0 +1,28 @@
+/* Jai Swaminarayan KESHAV , Swami-Shreeji */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.myFontAwsome{
+    margin-left: 5px;
+}
+
+.navField1:hover{
+    background-color: #0bb357;
+    color: white;
+    border-radius: 7px;
+}
+
+.navField2:hover{
+    background-color:#f8c31b;
+    color: white;
+    border-radius: 7px;
+}
+
+.navField3:hover{
+    background-color: rgb(250, 68, 68);
+    color: white;
+    border-radius: 7px;
+}

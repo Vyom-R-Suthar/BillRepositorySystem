@@ -1,0 +1,182 @@
+/* Jai Swaminarayan KESHAV , Swami-Shreeji */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar span{
+    color: white;
+    font-size: x-large;
+    margin-left: 15px;
+}
+/* .fHeading{
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'Wix Madefor Display', sans-serif;
+} */
+
+.fContainer{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid black;*/
+    background-image: url("../img/hanshakeimg9.jpg");
+    background-size: cover;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+@media(max-width:800px){
+    .fContainer{
+        height: auto;
+        min-height: 80vh;
+        /*margin-bottom: 20px;*/
+    }
+}
+
+.headingContainer {
+    margin-bottom: 2%;
+    color: white;
+}
+
+@media(max-width:800px){
+    .headingContainer{
+        margin-top: 2%;
+    }
+}
+
+.billContainer{
+    /* height: 400px; */
+    height: 75%;
+    width: 70%;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: -13px -13px 13px rgba(255,255,255,0.2),
+                13px 13px 13px rgba(0,0,0,0.1),
+                inset -5px -5px 5px rgba(255,255,255,0.2),
+                inset 5px 5px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0,0,0,0.1);
+}
+
+@media(max-width:800px){
+    .billContainer{
+        height: auto;
+        flex-direction: column;
+        margin-bottom: 7%;
+    }
+}
+
+.container1{
+    height: 100%;
+    width: 50%;
+    border-right: 1px solid white;
+}
+
+@media (max-width:800px){
+    .container1{
+        border-right: 0px;
+        width: 100%;
+    }
+}
+.field1{
+    height: 18%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.field1 p{
+    margin-left: 5%;
+}
+
+.field1 input{
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    margin-left: 5%;
+    width: 80%;
+    opacity: 0.2;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.field1 input:focus{
+    opacity: 0.7;
+}
+.field2{
+    height: 18%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.field2 p,span{
+    margin-left: 5%;
+}
+
+.field2 span{
+    margin-right: 2%;
+}
+
+.field1 button{
+    margin-left: 5%;
+    width: 90%;
+    border-radius: 15px;
+    background-color: #212529;
+    color: white;
+}
+
+.field1 button:hover{
+    background-color: #3b4146;
+    color: white;
+}
+.container2{
+    height: 100%;
+    width: 50%;
+    /*border: 1px solid red;*/
+}
+
+.register{
+    height: 25%;
+    width: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.register button{
+    margin-bottom: 0px;
+    width: 85%;
+    background-color: #212529;
+    color: white;
+    border-radius: 15px;
+}
+
+.register button:hover{
+    background-color: #3b4146;
+    color: white;
+}
+
+.register p{
+    margin-top: 20px;
+}
+
+.register p a{
+    text-decoration: none;
+}
+
+@media (max-width:800px){
+    .container2{
+        width: 100%;
+    }
+}

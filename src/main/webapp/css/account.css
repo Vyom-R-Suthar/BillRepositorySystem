@@ -1,0 +1,212 @@
+@charset "ISO-8859-1";
+/* Jai Swaminarayan KESHAV  , Swami-Shreeji  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.fContainer{
+    height: 78vh;
+    width: 100%;
+    background-image: url("../img/hanshakeimg9.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Wix Madefor Display', sans-serif;
+    border: 1px solid #212529;
+    overflow-y: scroll;
+}
+
+.fContainer::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+@media (max-width:700px){
+    .fContainer{
+        height: auto;
+        min-height: 78vh;
+    }
+}
+.userContainer{
+    height: 39vh;
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1%;
+}
+
+@media(max-width:500px){
+    .userContainer{
+        flex-direction: column;
+        height: auto;
+        min-height: 45vh;
+    }
+}
+
+.userPhotoContainer{
+    width: 40%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid white;
+}
+
+@media (max-width:500px){
+    .userPhotoContainer{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+.userPhotoContainer img{
+    height: 250px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+@media(max-width:700px){
+    .userPhotoContainer img{
+        height: 180px;
+        width: 180px;
+    }
+
+}
+
+@media(max-width:350px){
+    .userPhotoContainer img{
+        height: 140px;
+        width: 140px;
+    }
+}
+.userInfoContainer{
+    width: 60%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    color: white;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.updateButton{
+    width: 25%;
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.updateButton:hover{
+    background-color: #212529;
+    color: aquamarine;
+}
+
+.deleteButton{
+    width: 25%;
+    background-color:rgb(225, 85, 85);
+    border: 1px solid rgb(225, 85, 85);
+    border-radius: 15px;    
+}
+
+.deleteButton:hover{
+    background-color: #212529;
+    color: rgb(225, 85, 85);
+}
+@media(max-width:500px){
+    .userPhotoContainer{
+        height: 50%;
+        width: 100%;
+    }
+    .userInfoContainer{
+        height: 50%;
+        width: 100%;
+    }
+}
+
+.ddContainer{
+    height: 39vh;
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid blue; */
+}
+
+@media(max-width:950px){
+    .ddContainer{
+        flex-direction: column;
+        height: auto;
+        min-height: 39vh;
+        justify-content: center;
+    }
+}
+
+.dealerContainer{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media(max-width:950px){
+    .dealerContainer{
+        width: 100%;
+
+    }
+}
+.dealerContainer h2, .distributorContainer h2{
+    color: white;
+    margin-left: 7%;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+
+.dealerTable{
+    width: 100%;
+    color: white;
+    overflow-y: scroll;
+    margin-left:2%;
+    margin-bottom:2%;
+    /* border: 1px solid red; */
+}
+
+.ddImage{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.row{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.column{
+    /* margin-left: 3%; */
+   /* border: 1px solid olivedrab; */
+   width: fit-content;
+}
+.distributorContainer{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid yellow; */
+}
+@media(max-width:950px){
+    .distributorContainer{
+        width: 100%;
+    }
+}
